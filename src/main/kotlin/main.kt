@@ -2,7 +2,7 @@ import kotlinx.browser.document
 import kotlin.js.Json
 import kotlin.js.json
 
-const val CrashlyticsDashBoardUrl = "CrashlyticsのダッシュボードのURLを入力してください"
+private const val CrashlyticsDashBoardUrl = "CrashlyticsのダッシュボードのURLを入力してください"
 
 fun main() {
     async {
