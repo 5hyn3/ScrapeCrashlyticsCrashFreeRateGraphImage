@@ -16,7 +16,7 @@ Chromiumを操作し、指定されたFirebaseCrashlyticsのダッシュボー�
 2. `./gradlew run`
 3. `screenshot.png`という名前でプロジェクトのルートにクラッシュフリーレートのグラフの画像が生成されます
 
-付属のDockerfileを利用して実行する場合は以下の箇所で渡しているjsonに`"executablePath" to "/usr/bin/google-chrome"`を追加してください
+付属のDockerfileを利用して実行する場合は以下の箇所で渡しているjsonに`"executablePath" to "/usr/bin/google-chrome"`を追加してください  
 https://github.com/5hyn3/ScrapeCrashlyticsCrashFreeRateGraphImage/blob/main/src/main/kotlin/main.kt#L10-L13
 
 ## 参考
